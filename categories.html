@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeShop</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="freeshop-header d-flex justify-content-between">
+          <div class="market-content d-flex align-items-center">
+            <div class="freeshop-logo">
+              <h3 class="text-uppercase mb-0">FreeShop</h3>
+            </div>
+            <nav>
+              <ul class="text-uppercase">
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="#">Kategoriyalar</a></li>
+                <li><a href="#">Yordam</a></li>
+                <li><a href="#">Biz haqimizda</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="shop">
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-search"></i>
+            <a href="login.html" class="btn button_link">Kirish</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="filter">
+      <div class="main-banner">
+        <div class="container">
+          <div class="banner-info">
+            <h1>Hello Everebody</h1>
+          </div>
+        </div>
+      </div>
+      <div class="filter-link">
+        <div class="container">
+          <div class="badre-group">
+            <a href="index.html" class="active-link">Home</a>
+            <i class="fas fa-angle-double-right"></i>
+            <a href="#">Categories</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="categories">
+              <span>Categories</span>
+              <div class="menu">
+              <ul class="item_list">
+              </ul>
+            </div>             
+            </div>
+            <div class="filter-range">
+              <span>Price filter</span>
+              <div id="price-range"></div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="result">
+                    <input type="text" value="$0" readonly />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="result">
+                    <input type="text" value="$0" readonly />
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="size">
+              <span>Size</span>
+              <ul>
+                <li>XS</li>
+                <li>S</li>
+                <li>M</li>
+                <li>L</li>
+                <li>SL</li>
+                <li>XL</li>
+                <li>XXL</li>
+              </ul>
+            </div>
+            <div class="colors">
+              <span>Color</span>
+              <ul>
+                <li>Black</li>
+                <li>White</li>
+                <li>Blue</li>
+                <li>Yellow</li>
+                <li>Red</li>
+              </ul>
+            </div>
+            <div class="top-group">
+              <span>top rated</span>
+              <ul>
+                <li class="border-bottom">
+                  <a href="#!">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="top-img" style="background-image: url(./img/all-img.jpg);"></div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="top-info">
+                          <p>Lorem ipsum dolor sit amet consectetur.</p>
+                          <span>$250.00</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="border-bottom">
+                  <a href="#!">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="top-img" style="background-image: url(./img/all-img.jpg);"></div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="top-info">
+                          <p>Lorem ipsum dolor sit amet consectetur.</p>
+                          <span>$250.00</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#!">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="top-img" style="background-image: url(./img/all-img.jpg);"></div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="top-info">
+                          <p>Lorem ipsum dolor sit amet consectetur.</p>
+                          <span>$250.00</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row get-filter">
+              
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript-Code -->
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/nouislider.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
